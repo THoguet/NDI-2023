@@ -1,7 +1,7 @@
 <template>
 	<div v-if="q != undefined">
 		<div class="question">
-			<h1>Question {{ questionIndex }}/{{ numberOfQuestions }}</h1>
+			<h1>Question {{ questionIndex! + 1 }}/{{ numberOfQuestions }}</h1>
 			<h2> {{ q.question }}</h2>
 		</div>
 		<div class="responses">
@@ -44,7 +44,6 @@ export default defineComponent({
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	height: 10vh;
 	width: 80vw;
 }
 </style>

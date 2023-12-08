@@ -1,35 +1,50 @@
 [
 	{
-		"question": "What is the capital of France?",
+		"question": "Quelle est la principale source de pollution plastique dans les océans ?",
 		"answers": [
-			"A. Paris",
-			"B. London",
-			"C. New York"
+			"A. Bouteilles en plastique",
+			"B. Filets de pêche",
+			"C. Microplastiques"
 		],
-		"correctAnswer": "A. Paris",
-		"explanation": "Paris is the capital of France",
-		"source": "https://en.wikipedia.org/wiki/Paris"
+		"correctAnswer": "C. Microplastiques",
+		"explanation": "Les microplastiques sont la principale source de pollution plastique dans les océans, provenant de diverses sources telles que les cosmétiques, les vêtements synthétiques et la dégradation des déchets plastiques.",
+		"solution": "Nous pouvons réduire la pollution par les microplastiques en utilisant moins de produits contenant des microplastiques et en choisissant des vêtements fabriqués à partir de matériaux naturels.",
+		"source": "https://oceanservice.noaa.gov/facts/microplastics.html"
 	},
 	{
-		"question": "What is the capital of England?",
+		"question": "Quel pourcentage de la déforestation mondiale est causé par l'agriculture ?",
 		"answers": [
-			"A. Paris",
-			"B. London",
-			"C. New York"
+			"A. Environ 50%",
+			"B. Environ 70%",
+			"C. Environ 80%"
 		],
-		"correctAnswer": "B. London",
-		"explanation": "London is the capital of England",
-		"source": "https://en.wikipedia.org/wiki/London"
+		"correctAnswer": "B. Environ 70%",
+		"explanation": "Environ 70% de la déforestation mondiale est due à l'agriculture, en particulier à la culture du soja, à l'élevage bovin et à l'huile de palme.",
+		"solution": "Nous pouvons combattre la déforestation en adoptant des pratiques agricoles durables et en réduisant la consommation de produits liés à la déforestation.",
+		"source": "https://www.wwf.org.uk/learn/effects-of/deforestation"
 	},
 	{
-		"question": "What is the capital of USA?",
+		"question": "Quel est l'impact environnemental principal de l'industrie de la mode rapide ?",
 		"answers": [
-			"A. Paris",
-			"B. London",
-			"C. New York"
+			"A. Pollution de l'air",
+			"B. Utilisation intensive de l'eau",
+			"C. Emissions de carbone"
 		],
-		"correctAnswer": "C. New York",
-		"explanation": "New York is the capital of USA",
-		"source": "https://en.wikipedia.org/wiki/New_York"
+		"correctAnswer": "B. Utilisation intensive de l'eau",
+		"explanation": "L'industrie de la mode rapide est particulièrement gourmande en eau, utilisant de grandes quantités d'eau pour la culture du coton et la teinture des tissus.",
+		"solution": "Nous pouvons réduire l'impact de la mode rapide en choisissant des vêtements fabriqués de manière durable et en privilégiant la qualité à la quantité.",
+		"source": "https://www.unenvironment.org/news-and-stories/story/putting-brakes-fast-fashion"
+	},
+	{
+		"question": "Quelle est la principale cause de la perte de biodiversité dans le monde ?",
+		"answers": [
+			"A. Changement climatique",
+			"B. Pollution",
+			"C. Destruction de l'habitat"
+		],
+		"correctAnswer": "C. Destruction de l'habitat",
+		"explanation": "La principale cause de la perte de biodiversité est la destruction de l'habitat, souvent due à l'urbanisation, à l'agriculture et à l'exploitation forestière.",
+		"solution": "La protection et la restauration des habitats naturels sont essentielles pour préserver la biodiversité.",
+		"source": "https://wwf.panda.org/discover/our_focus/wildlife_practice/problems/habitat_loss_degradation/"
 	}
 ]

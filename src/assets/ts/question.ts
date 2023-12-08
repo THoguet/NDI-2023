@@ -3,5 +3,6 @@ export interface Question {
 	answers: string[];
 	correctAnswer: string;
 	explanation: string;
+	solution: string;
 	source: string;
 }

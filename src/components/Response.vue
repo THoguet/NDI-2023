@@ -27,7 +27,7 @@ export default defineComponent({
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	height: 10vh;
+	padding: 1em;
 	width: 20vw;
 	border-radius: 1em;
 	background-color: rgba(56, 56, 56, 0.5);
