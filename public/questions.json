@@ -46,5 +46,49 @@
 		"explanation": "La principale cause de la perte de biodiversité est la destruction de l'habitat, souvent due à l'urbanisation, à l'agriculture et à l'exploitation forestière.",
 		"solution": "La protection et la restauration des habitats naturels sont essentielles pour préserver la biodiversité.",
 		"source": "https://wwf.panda.org/discover/our_focus/wildlife_practice/problems/habitat_loss_degradation/"
+	},
+	{
+		"question": "Quel est le principal gaz à effet de serre produit par les centres de données ?",
+		"answers": [
+			"A. Dioxyde de carbone",
+			"B. Méthane",
+			"C. Ozone"
+		],
+		"correctAnswer": "A. Dioxyde de carbone",
+		"explanation": "Les centres de données produisent principalement du dioxyde de carbone en raison de leur consommation énergétique élevée.",
+		"source": "https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+	},
+	{
+		"question": "Quelle proportion de l'énergie mondiale est estimée être consommée par l'Internet ?",
+		"answers": [
+			"A. Environ 2%",
+			"B. Environ 10%",
+			"C. Environ 20%"
+		],
+		"correctAnswer": "A. Environ 2%",
+		"explanation": "L'Internet est estimé consommer environ 2% de l'énergie mondiale.",
+		"source": "https://www.iea.org/reports/digitalisation-and-energy"
+	},
+	{
+		"question": "Quel est l'impact environnemental majeur de la production de dispositifs électroniques ?",
+		"answers": [
+			"A. Émission de gaz à effet de serre",
+			"B. Pollution de l'eau",
+			"C. Déforestation"
+		],
+		"correctAnswer": "B. Pollution de l'eau",
+		"explanation": "La production de dispositifs électroniques entraîne souvent une pollution significative de l'eau due aux produits chimiques utilisés.",
+		"source": "https://www.greenpeace.org/usa/reports/greener-electronics-2017/"
+	},
+	{
+		"question": "Quel terme décrit le mieux la consommation d'énergie cachée pour le stockage et la transmission de données numériques ?",
+		"answers": [
+			"A. Empreinte carbone numérique",
+			"B. Charge de refroidissement",
+			"C. Consommation fantôme"
+		],
+		"correctAnswer": "A. Empreinte carbone numérique",
+		"explanation": "L'empreinte carbone numérique fait référence à la consommation d'énergie cachée associée au stockage et à la transmission des données numériques.",
+		"source": "https://www.nature.com/articles/d41586-018-06610-y"
 	}
 ]
