@@ -5,9 +5,18 @@
 			<button @click="quizzStarted = true">Start</button>
 		</div>
 		<div v-else>
-			<QuestionView :q="questions[questionIndex]" @answer="verifAnswer($event)"
-				:number-of-questions="questions.length" :question-index="questionIndex" />
-			<h1>Score: {{ score }}</h1>
+			<div v-if="!explanation">
+				<QuestionView :q="questions[questionIndex]" @answer="verifAnswer($event)"
+					:number-of-questions="questions.length" :question-index="questionIndex" />
+				<h1>Score: {{ score }}</h1>
+			</div>
+			<div v-else>
+				<h1>Correct answer: {{ questions[questionIndex - 1].correctAnswer }}</h1>
+				<h1>explanation:</h1>
+				<h2>{{ questions[questionIndex - 1].explanation }}</h2>
+				<h3>Sources: {{ questions[questionIndex - 1].source }}</h3>
+				<button @click="explanation = false">Next</button>
+			</div>
 		</div>
 	</div>
 </template>
@@ -28,6 +37,7 @@ export default defineComponent({
 			questionIndex: 0,
 			score: 0,
 			quizzStarted: false,
+			explanation: false
 		}
 	},
 
@@ -53,6 +63,7 @@ export default defineComponent({
 				this.score++
 			}
 			this.questionIndex++
+			this.explanation = true
 		}
 	},
 

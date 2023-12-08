@@ -6,7 +6,9 @@
 			"B. London",
 			"C. New York"
 		],
-		"correctAnswer": "A. Paris"
+		"correctAnswer": "A. Paris",
+		"explanation": "Paris is the capital of France",
+		"source": "https://en.wikipedia.org/wiki/Paris"
 	},
 	{
 		"question": "What is the capital of England?",
@@ -15,7 +17,9 @@
 			"B. London",
 			"C. New York"
 		],
-		"correctAnswer": "B. London"
+		"correctAnswer": "B. London",
+		"explanation": "London is the capital of England",
+		"source": "https://en.wikipedia.org/wiki/London"
 	},
 	{
 		"question": "What is the capital of USA?",
@@ -24,6 +28,8 @@
 			"B. London",
 			"C. New York"
 		],
-		"correctAnswer": "C. New York"
+		"correctAnswer": "C. New York",
+		"explanation": "New York is the capital of USA",
+		"source": "https://en.wikipedia.org/wiki/New_York"
 	}
 ]
