@@ -1,8 +1,8 @@
 <template>
 	<div class="game">
 		<h1>Quizz</h1>
-		<h3>Voici un quizz sur la thématique de l'écologie !</h3>
 		<div v-if="!quizzStarted">
+			<h3>Voici un quizz sur la thématique de l'écologie !</h3>
 			<button @click="quizzStarted = true">Commencer !</button>
 		</div>
 		<div v-else>
@@ -24,8 +24,8 @@
 				<h1>Score: {{ score }}</h1>
 			</div>
 			<div v-else>
-				<h1>Vous avez fini le quizz ! Nous esperons que vous avez appris des choses et que vous avez
-					pris consience si ce n'etais pas le cas de l'etat dans lequel nous mettons la planete</h1>
+				<h1>Vous avez fini le quizz ! Nous espérons que vous avez appris des choses et que vous avez
+					pris conscience, si ce n'était déjà pas le cas, de l'état dans lequel nous mettons la planète.</h1>
 				<h1>Score: {{ score }}/{{ questions.length }}</h1>
 				<h1>Vous avez eu {{ score / questions.length * 100 }}% de bonnes réponses</h1>
 				<h2>Vous pouvez recommencer le quizz en rafraichissant la page</h2>

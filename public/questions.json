@@ -56,6 +56,7 @@
 		],
 		"correctAnswer": "A. Dioxyde de carbone",
 		"explanation": "Les centres de données produisent principalement du dioxyde de carbone en raison de leur consommation énergétique élevée.",
+		"solution": "Nous pouvons réduire l'impact environnemental des centres de données en utilisant des sources d'énergie renouvelables et en améliorant l'efficacité énergétique.",
 		"source": "https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
 	},
 	{
@@ -67,6 +68,7 @@
 		],
 		"correctAnswer": "A. Environ 2%",
 		"explanation": "L'Internet est estimé consommer environ 2% de l'énergie mondiale.",
+		"solution": "Nous pouvons réduire l'impact environnemental de l'Internet en utilisant des sources d'énergie renouvelables et en améliorant l'efficacité énergétique.",
 		"source": "https://www.iea.org/reports/digitalisation-and-energy"
 	},
 	{
@@ -78,6 +80,7 @@
 		],
 		"correctAnswer": "B. Pollution de l'eau",
 		"explanation": "La production de dispositifs électroniques entraîne souvent une pollution significative de l'eau due aux produits chimiques utilisés.",
+		"solution": "Nous pouvons réduire l'impact environnemental de la production de dispositifs électroniques en recyclant les appareils électroniques et en choisissant des appareils fabriqués de manière durable.",
 		"source": "https://www.greenpeace.org/usa/reports/greener-electronics-2017/"
 	},
 	{
@@ -89,6 +92,7 @@
 		],
 		"correctAnswer": "A. Empreinte carbone numérique",
 		"explanation": "L'empreinte carbone numérique fait référence à la consommation d'énergie cachée associée au stockage et à la transmission des données numériques.",
+		"solution": "Nous pouvons réduire notre empreinte carbone numérique en réduisant la taille des fichiers et en utilisant des services de stockage en nuage plus efficaces.",
 		"source": "https://www.nature.com/articles/d41586-018-06610-y"
 	}
 ]
